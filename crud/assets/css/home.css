@@ -1,0 +1,91 @@
+body {
+  background-color: #fbeff1 !important; /* Rosa claro para una apariencia suave */
+  font-family: 'Poppins', sans-serif; /* Tipografía moderna y amigable */
+}
+
+.container {
+  background-color: #ffffff !important;
+  padding: 20px;
+  border-radius: 15px; /* Bordes más redondeados para suavidad */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle relieve */
+}
+
+label {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  color: #555; /* Color de texto más suave */
+}
+
+.btn_add {
+  width: 100%;
+  border: 1px solid #e75480 !important; /* Borde rosa coral */
+  background-color: #e75480 !important; /* Botón principal en rosa coral */
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn_add:hover {
+  background-color: #ff6f91 !important; /* Hover en tono más claro */
+  opacity: 0.9;
+}
+
+.btn-success {
+  border: 1px solid #50c878 !important; /* Verde pastel */
+  background-color: #50c878 !important;
+  color: #fff;
+  border-radius: 10px;
+}
+
+hr {
+  height: 1px !important;
+  border: none;
+  background-color: #f09ba0 !important; /* Línea divisoria en rosa claro */
+  width: 100% !important;
+}
+
+.bi-arrow-right-circle {
+  font-size: 30px;
+  color: #ff6f91; /* Ícono con color vibrante */
+}
+
+.titulo_modal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+thead tr th {
+  text-align: start !important;
+  color: #e75480; /* Encabezados con un toque rosa coral */
+  font-weight: 600;
+}
+
+tr td {
+  text-align: start !important;
+  color: #444;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+  border-color: #ff6f91;
+  outline: none;
+}
